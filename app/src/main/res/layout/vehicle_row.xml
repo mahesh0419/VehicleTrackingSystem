@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edit_text_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subject"
+        android:text="Vehicle Id:test"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#43c6db"
+              />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub_code"
+        android:text="Customer Id:test2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#43c6db"
+
+    />
+
+</LinearLayout>
